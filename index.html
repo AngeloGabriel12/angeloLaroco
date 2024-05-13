@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .navbar-custom {
+      background-color: #343a40;
+    }
+    .navbar-custom .navbar-brand, .navbar-custom .navbar-nav .nav-link {
+      color: #ffffff;
+    }
+    .jumbotron-custom {
+      background-color: #007bff;
+      color: #ffffff;
+    }
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="#">Simple Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid jumbotron-custom">
+  <div class="container text-center">
+    <h1 class="display-4">Welcome to My Portfolio</h1>
+    <p class="lead">-Angelo Gabriel Panes Laroco</p>
+  </div>
+</div>
+
+<!-- Content -->
+<!-- Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>As a College Student</h2>
+     <p style="text-align: justify;">Student life is your chance to shine, so grab it and make it yours. Learn from books, learn from friends, learn from every moment that comes your way. Work hard, but don't forget to relax and have fun. Stay organized, meet deadlines, and manage your time wisely. Make friends, network, and be thankful for the people who support you. When things get difficult, don't give up and keep moving forward. Then you will come out stronger on the other side. Be open-minded, embrace new ideas, and celebrate diversity in all its forms. Set big and small goals and take confident steps to achieve them. Learn from your mistakes, but don't let them define you as a stepping stone to success. Stay true to yourself, follow your passion, and don’t be afraid to chase your dreams. Take care of your health, both physically and mentally, because a happy you is a successful you. Find mentors and role models who can inspire you and guide you along the way. Have fun and don't forget to make memories that will last a lifetime. Be curious, ask questions, and never stop seeking knowledge. Be kind, generous and always lend a helping hand to those in need. Remain humble and remember that success depends not only on what you accomplish, but also on how you impact the world around you. Believe in yourself, believe in your abilities, and know that you can achieve anything you set your mind to. Remain resilient, overcome setbacks, and keep moving forward with determination. Above all, never forget to be grateful for the opportunities and experiences that come your way. With determination, persistence, and a positive attitude, you will succeed not only in college but in all areas of life.</p>
+    </div>
+    <div class="col-md-6">
+      <h2>College Life</h2>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img1.jpg" class="d-block w-100" alt="Image 1">
+          </div>
+          <div class="carousel-item">
+            <img src="image2.jpg" class="d-block w-100" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+            <img src="img3.jpg" class="d-block w-100" alt="Image 3">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-0.5">
+  <div class="container">
+    <p>&copy; 2024 Simple Website. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
